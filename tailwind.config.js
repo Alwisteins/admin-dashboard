@@ -11,6 +11,7 @@ export default {
       palette: {
         bg: "#f8f9fa",
         white: "#fff",
+        gray: '#808080',
         down: "#FF1700",
         up: "#06FF00",
         100: "#4B49AC",

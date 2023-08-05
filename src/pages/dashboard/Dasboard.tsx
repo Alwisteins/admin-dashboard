@@ -1,11 +1,15 @@
 import Card from "../../component/card/Card";
-import MainChart from "../../component/chart/MainChart";
+import BarChart from "../../component/chart/BarChart";
+import DoughnutChart from "../../component/chart/DoughnutChart";
+import TransactionHistory from "../../component/card/TransactionHistory";
 
-export default function Dasboard() {
+export default function Dasboard(): JSX.Element {
   return (
     <div className="flex grow">
       <Card />
-      <MainChart />
+      <BarChart />
+      <TransactionHistory />
+      <DoughnutChart />
     </div>
   );
 }

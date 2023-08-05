@@ -2,7 +2,7 @@ import Sidebar from "./component/sidebar/Sidebar";
 import Topbar from "./component/topbar/Topbar";
 import Dasboard from "./pages/dashboard/Dasboard";
 
-function App() {
+function App(): JSX.Element {
   return (
     <div>
       <Topbar />

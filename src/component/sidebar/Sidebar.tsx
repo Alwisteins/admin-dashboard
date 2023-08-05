@@ -1,6 +1,6 @@
 import { Window, EventNote, Chat } from "@mui/icons-material";
 
-export default function Sidebar() {
+export default function Sidebar(): JSX.Element {
   return (
     <div className="bg-palette-white w-64 box-border h-screen">
       <div className="bg-palette-bg p-4">

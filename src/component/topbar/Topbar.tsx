@@ -1,6 +1,6 @@
 import { Notifications, Forum } from "@mui/icons-material";
 
-export default function Topbar() {
+export default function Topbar(): JSX.Element {
   return (
     <div className="bg-palette-white flex justify-between items-center h-12 mt-y px-5 z-99 shadow-[0_0_20px_0_rgba(165,182,214,0.75)]">
       <div className="text-palette-100 font-bold text-2xl cursor-pointer">Alwisteins</div>
