@@ -3,7 +3,7 @@ import {
   KeyboardDoubleArrowDown,
 } from "@mui/icons-material";
 
-export default function Card() {
+export default function Card(): JSX.Element {
   return (
     <div className="flex w-11/12 my-10 mx-auto justify-between">
       <div className="bg-palette-white w-72 h-28 p-2.5 border-box hover:scale-105 duration-300 rounded shadow-[0_0_10px_0_rgba(165,182,214,0.25)]">
