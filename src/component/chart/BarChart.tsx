@@ -1,5 +1,6 @@
 import "chart.js/auto";
 import { Chart } from "react-chartjs-2";
+import BarChartIcon from '@mui/icons-material/BarChart';
 
 type BarChartType = {
   labels: string[];
@@ -44,6 +45,9 @@ const chartData: BarChartType = {
 export default function BarChart(): JSX.Element {
   return (
     <div className="absolute h-96 ml-11 mt-48 p-10 hover:scale-105 duration-200 bg-palette-white rounded overflow-hidden">
+      <div className="text-center text-palette-100 mt-[-20px] mb-2">
+        <BarChartIcon /> Yearly stats
+      </div>
       <Chart type="bar" className="w-[40rem]" data={chartData} />
     </div>
   );

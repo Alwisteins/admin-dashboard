@@ -1,6 +1,11 @@
+import { AccessTime } from "@mui/icons-material";
+
 export default function Timeline(): JSX.Element {
   return (
     <div className="absolute w-5/12 right-[40px] mt-[620px] p-10 hover:scale-105 duration-200 bg-palette-white rounded">
+      <div className="text-center text-palette-100 mt-[-20px] mb-2">
+        <AccessTime /> Yearly stats
+      </div>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         <li className="mb-10 ml-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
